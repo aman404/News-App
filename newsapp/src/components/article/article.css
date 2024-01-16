@@ -1,0 +1,14 @@
+.articleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article{
+    width: 60%;
+}
+@media screen and (max-width: 720px)
+{
+    .article{
+        width: 95%;
+    }
+}

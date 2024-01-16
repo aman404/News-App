@@ -1,0 +1,31 @@
+.card
+{
+    width: 450px;
+    min-width: 200px;
+    
+    transition: 0.3s ease;
+}
+.card:hover{
+    width: 455px;
+}
+.image
+{
+    border-bottom: 1px solid black;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+.description{
+    overflow: hidden;
+    padding-left: 5px;
+}
+.card{
+    overflow: hidden;
+}
+@media screen and (max-width: 720px){
+    .card:hover{
+        width: 450px;
+    }
+}
